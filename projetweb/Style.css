@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    background-repeat: no-repeat;
+    background-size:  1540px 710px;
+    margin: 0%;
+}
+
+/*manu*/
+.menu{
+  display: none;
+}
+
+nav input[type= checkbox]:checked ~ ul{
+  display: block;
+} 
+
+
+@media screen and (max-width:680px) {
+  .menu{
+    display: block;
+    color: #000000;
+    background-color: rgba(255, 248, 220, 0);
+    text-align: center;
+    padding: 12px 0;
+  }
+
+  nav ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li{
+    float: center;
+    margin: auto;
+    padding: O;
+    background-color: black;
+  }
+
+  
+}
+
+
+
+/*--Navbar Style--*/
+nav{
+  overflow: hidden;
+  background-color: #38b6ff;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li{
+  float: left;
+  margin: auto;
+  padding: O;
+  background-color: #38b6ff;
+}
+
+nav li a{
+  display: block;
+  width: 150px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 15px;
+}
+
+nav li a:hover{
+  background-color: #79ceffa2;
+  border-top:5px solid #38b6ff;
+}
+
+nav ul li ul{
+  display: none;
+}
+
+nav ul li:hover ul{
+  display: block;
+}
+
+nav li:hover ul li{
+  float:none;
+}
+
+nav li ul{
+  position: absolute;
+}
+
+.submenu li:hover a{
+  color: white;
+  font-weight: bold;
+  border-top:5px solid #38b6ff;
+  background-color:  #79ceffa2;
+}
+
+.submenu li{
+  background-color: #38b6ff;
+}
+
+/*-- H1 Style (Mael Nialon)--*/
+.nom{
+  text-align: center;
+  padding: 1%;
+  color: #79ceff;
+  
+}
+
+
